@@ -1,0 +1,120 @@
+* {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+body {
+  background-image: linear-gradient(45deg, #47ff00, transparent);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: 2px;
+  color: currentColor;
+  font-style: oblique;
+}
+
+.cv {
+  width: 90%;
+  max-width: 800px;
+  background: #f3f3f3;
+  margin: 30px auto;
+}
+
+.container {
+  padding: 30px 15px;
+  border-bottom: 10px solid;
+  background-image: linear-gradient(45deg, #1c98af, transparent);
+}
+
+.nama h1 {
+  font-size: 2.5em;
+  padding: 8px;
+  font-weight: 700;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  margin-bottom: -6px;
+}
+
+.nama h2 {
+  font-size: 2em;
+  margin-left: 2px;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+.isi {
+  padding: 0 40px;
+}
+
+.gambar {
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gambar img {
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+/* #contactDetails {
+  float: right;
+}
+
+
+#contactDetails ul {
+  list-style-type: none;
+  font-size: 0.9em;
+  margin-top: 2px;
+}
+
+
+#contactDetails ul li {
+  margin-bottom: 3px;
+  color: #444;
+}
+
+
+#contactDetails ul li a:hover {
+  color: #cf8a05;
+} */
+
+section {
+  border-top: 1px solid #dedede;
+  padding: 20px 0 0;
+}
+
+.motto {
+  float: left;
+  width: 25%;
+}
+
+.content {
+  float: right;
+  width: 72.5%;
+}
+
+.motto h1 {
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  color: #cf8a05;
+}
+
+.content h2 {
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  margin-bottom: -2px;
+}

@@ -69,28 +69,6 @@ p {
   border-radius: 50px;
 }
 
-/* #contactDetails {
-  float: right;
-}
-
-
-#contactDetails ul {
-  list-style-type: none;
-  font-size: 0.9em;
-  margin-top: 2px;
-}
-
-
-#contactDetails ul li {
-  margin-bottom: 3px;
-  color: #444;
-}
-
-
-#contactDetails ul li a:hover {
-  color: #cf8a05;
-} */
-
 section {
   border-top: 1px solid #dedede;
   padding: 20px 0 0;

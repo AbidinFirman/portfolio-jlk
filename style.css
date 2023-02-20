@@ -8,9 +8,12 @@
 }
 
 body {
-  background-image: linear-gradient(45deg, #47ff00, transparent);
+  background-image: url(landscape2.jpg);
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .clear {
@@ -26,16 +29,16 @@ p {
 }
 
 .cv {
-  width: 90%;
   max-width: 800px;
-  background: #f3f3f3;
+  background-image: linear-gradient(45deg, #696969, transparent);
   margin: 30px auto;
+  border-radius: 20px;
 }
 
 .container {
   padding: 30px 15px;
   border-bottom: 10px solid;
-  background-image: linear-gradient(45deg, #1c98af, transparent);
+  background-image: linear-gradient(45deg, #232b2c, transparent);
 }
 
 .nama h1 {
@@ -70,7 +73,6 @@ p {
 }
 
 section {
-  border-top: 1px solid #dedede;
   padding: 20px 0 0;
 }
 
@@ -89,6 +91,7 @@ section {
   font-style: italic;
   font-size: 1.5em;
   color: #cf8a05;
+  font-weight: 500;
 }
 
 .content h2 {

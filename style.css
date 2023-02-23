@@ -1,101 +1,129 @@
-* {
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
 body {
-  background-image: url(landscape2.jpg);
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.clear {
-  clear: both;
-}
-
-p {
-  font-size: 1em;
-  line-height: 1.4em;
-  margin-bottom: 2px;
-  color: currentColor;
-  font-style: oblique;
-}
-
-.cv {
-  max-width: 800px;
-  background-image: linear-gradient(45deg, #696969, transparent);
-  margin: 30px auto;
-  border-radius: 20px;
-}
+    background: url(foto.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
 
 .container {
-  padding: 30px 15px;
-  border-bottom: 10px solid;
-  background-image: linear-gradient(45deg, #232b2c, transparent);
-}
-
-.nama h1 {
-  font-size: 2.5em;
-  padding: 8px;
-  font-weight: 700;
-  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
-  margin-bottom: -6px;
-}
-
-.nama h2 {
-  font-size: 2em;
-  margin-left: 2px;
-  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
-}
-
-.isi {
-  padding: 0 40px;
-}
-
-.gambar {
-  width: 12.5%;
-  float: left;
-  margin-right: 30px;
+    background: linear-gradient(
+    150deg,
+    rgba(64, 224, 208, 0.3),
+    rgba(255, 0, 128, 0.3)
+  );
 }
 
 .gambar img {
-  width: 100%;
-  height: auto;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+    border-radius: 50%;
+    width: 145px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-size: cover;
 }
 
-section {
-  padding: 20px 0 0;
+.border-right {
+    border-right: 2px solid;
 }
 
-.motto {
-  float: left;
-  width: 25%;
+.border-bottom {
+    border-bottom: 8px solid;
 }
 
-.content {
-  float: right;
-  width: 72.5%;
+.sub-judul {
+    padding-top: 5px;
+    padding-bottom: 3px;
 }
 
-.motto h1 {
-  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 1.5em;
-  color: #cf8a05;
-  font-weight: 500;
+.row {
+    padding-bottom: 0px;
+    border: 1px solid;
 }
 
-.content h2 {
-  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  margin-bottom: -2px;
+.col p {
+    margin-top: 0;
+    margin-bottom: auto;
 }
+
+/* a {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before{
+    content: "";
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before{
+    width: 100%;
+  } */
+  
+
+.col  a {
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.col a:hover {
+    color: salmon;
+    font-style: oblique;
+    font-size: 14px;
+    text-decoration: lightskyblue;
+}
+
+/* .col a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5px;
+    border-bottom: 0.1px solid lightskyblue;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.col a:hover::after {
+    transform: scaleX(0.5);
+} */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+      font-size: 75%;
+    }
+  }
+  /* Tablet */
+  @media (max-width: 768px) {
+    html {
+      font-size: 62.5%;
+    }
+}
+    /* Hp */
+    @media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  }  

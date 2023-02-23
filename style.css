@@ -1,12 +1,12 @@
 body {
-    background: url(foto.jpg);
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-  }
+  background: url(foto.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
 
 .container {
-    background: linear-gradient(
+  background: linear-gradient(
     150deg,
     rgba(64, 224, 208, 0.3),
     rgba(255, 0, 128, 0.3)
@@ -14,116 +14,80 @@ body {
 }
 
 .gambar img {
-    border-radius: 50%;
-    width: 145px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    background-size: cover;
+  border-radius: 50%;
+  width: 145px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-size: cover;
 }
 
 .border-right {
-    border-right: 2px solid;
+  border-right: 2px solid;
 }
 
 .border-bottom {
-    border-bottom: 8px solid;
+  border-bottom: 8px solid;
 }
 
 .sub-judul {
-    padding-top: 5px;
-    padding-bottom: 3px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  font-weight: 600;
+  font-family: "Labrada", serif;
+  color: #33ffe0;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 200), 0 0 5px rgb(0, 123, 139);
 }
 
 .row {
-    padding-bottom: 0px;
-    border: 1px solid;
+  padding-bottom: 0px;
+  border: 1px solid;
 }
 
 .col p {
-    margin-top: 0;
-    margin-bottom: auto;
+  margin-top: 0;
+  margin-bottom: auto;
+  padding-bottom: 3px;
+  font-family: "Poppins", sans-serif;
 }
 
-/* a {
-    background-image: linear-gradient(
-      to right,
-      #54b3d6,
-      #54b3d6 50%,
-      #000 50%
-    );
-    background-size: 200% 100%;
-    background-position: -100%;
-    display: inline-block;
-    padding: 5px 0;
-    position: relative;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  a:before{
-    content: "";
-    background: #54b3d6;
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 0;
-    height: 3px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  a:hover {
-   background-position: 0;
-  }
-  
-  a:hover::before{
-    width: 100%;
-  } */
-  
+ul {
+  text-align: start;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+}
 
-.col  a {
-    text-decoration: none;
-    display: block;
-    margin: 5px;
-    font-size: 15px;
+.col a {
+  text-decoration: none;
+  display: block;
+  margin: 5px;
+  font-size: 15px;
+  font-family: "Labrada", serif;
 }
 
 .col a:hover {
-    color: salmon;
-    font-style: oblique;
-    font-size: 14px;
-    text-decoration: lightskyblue;
+  color: #fff;
+  font-style: oblique;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 251, 0), 0 0 5px rgb(113, 139, 0);
 }
-
-/* .col a::after {
-    content: "";
-    display: block;
-    padding-bottom: 0.5px;
-    border-bottom: 0.1px solid lightskyblue;
-    transform: scaleX(0);
-    transition: 0.2s linear;
-}
-
-.col a:hover::after {
-    transform: scaleX(0.5);
-} */
 
 /* Laptop */
 @media (max-width: 1366px) {
-    html {
-      font-size: 75%;
-    }
+  html {
+    font-size: 75%;
   }
-  /* Tablet */
-  @media (max-width: 768px) {
-    html {
-      font-size: 62.5%;
-    }
 }
-    /* Hp */
-    @media (max-width: 450px) {
-    html {
-      font-size: 55%;
-    }
-  }  
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+/* Hp */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}

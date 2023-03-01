@@ -80,20 +80,22 @@ p {
 }
 
 /* Laptop */
-@media (max-width: 1366px) {
+@media only screen and  (min-width: 1200px) {
   html {
     font-size: 75%;
   }
 }
 /* Tablet */
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   html {
     font-size: 62.5%;
   }
 }
 /* Hp */
-@media (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   html {
     font-size: 55%;
   }
 }
+
+

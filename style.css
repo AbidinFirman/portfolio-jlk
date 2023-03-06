@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: url(foto.jpg);
   background-size: cover;
@@ -8,6 +12,9 @@ body {
 }
 
 .container {
+  width: 100%;
+  margin-bottom: 5%;
+  border-radius: 20px;
   background: linear-gradient(
     150deg,
     rgba(64, 224, 208, 0.3),
@@ -15,17 +22,34 @@ body {
   );
 }
 
-.gambar img {
+div {
+  padding: 10px;
+}
+
+.foto {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom:30px;
+  background-position: center; 
+  padding-bottom: 20px;
+  background: url("rg5JRD5x.jpg");
+  background-size: cover;
+  padding-top: 25px;
+  margin-top:20px;
+}
+
+/* .gambar img {
   border-radius: 50%;
   width: 145px;
   padding-top: 20px;
   padding-bottom: 30px;
   background-size: cover;
-}
+} */
 
-.border-right {
+/* .border-right {
   border-right: 2px solid;
-}
+} */
 
 .border-bottom {
   border-bottom: 8px solid;
@@ -44,7 +68,7 @@ body {
 
 .row {
   padding-bottom: 0px;
-  border: 1px solid;
+  border-radius: 20px;
 }
 
 .col p {
@@ -96,6 +120,12 @@ p {
 @media only screen and (max-width: 600px) {
   html {
     font-size: 55%;
+  }
+  .row {
+    display: block;
+  }
+.border-right {
+    display: block;
   }
 }
 

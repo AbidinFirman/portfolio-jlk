@@ -12,47 +12,36 @@ body {
 }
 
 .container {
-  width: 100%;
-  margin-bottom: 5%;
-  border-radius: 20px;
-  background: linear-gradient(
-    150deg,
-    rgba(64, 224, 208, 0.3),
-    rgba(255, 0, 128, 0.3)
-  );
+  margin-bottom: 12px; 
+  border-radius: 4px;
+  opacity: 1;
 }
 
 div {
-  padding: 10px;
+  padding: 5px;
 }
 
 .foto {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin-bottom:30px;
-  background-position: center; 
-  padding-bottom: 20px;
-  background: url("rg5JRD5x.jpg");
+  width: 150px;
+  height:150px;
+  margin-bottom: 10px;
+  background-position: center;
+  background: url("https://images.unsplash.com/photo-1678219716027-1352ee0ded50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
-  padding-top: 25px;
-  margin-top:20px;
+  margin-top: 13px;
 }
 
-/* .gambar img {
-  border-radius: 50%;
-  width: 145px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  background-size: cover;
-} */
+.foto:hover {
+  border-radius: 20px;
+}
 
-/* .border-right {
-  border-right: 2px solid;
-} */
+.border-right {
+  border-right: 2px solid #ffffff;
+}
 
-.border-bottom {
-  border-bottom: 8px solid;
+.border-right-1 {
+  border-right: 2px solid #fff;
 }
 
 .sub-judul {
@@ -63,12 +52,49 @@ div {
   color: #33ffe0;
   font-style: italic;
   text-align: center;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 200), 0 0 5px rgb(0, 123, 139);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 200),
+    0 0 5px rgb(0, 123, 139);
+}
+
+.sub-judul-1 {
+  padding-top: 5px;
+  padding-bottom: 3px;
+  font-weight: 600;
+  font-family: "Labrada", serif;
+  color: #33ffe0;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 200),
+    0 0 5px rgb(0, 123, 139);
 }
 
 .row {
-  padding-bottom: 0px;
-  border-radius: 20px;
+  border-style: groove;
+  border-radius: 30px 0px 30px 0px;
+  border-width: 8px;
+  border-color: darkorange;
+  background-color: floralwhite;
+}
+
+.row:hover {
+  border-color: rgb(230, 185, 103);
+  background-color: rgba(2, 2, 2, 0.7); 
+  border: none;
+}
+
+.row-1 {
+  display: flex;
+  border-style: groove;
+  border-radius: 30px 0px 30px 0px;
+  border-width: 8px;
+  border-color: darkorange;
+  background-color: floralwhite;
+}
+
+.row-1:hover {
+  border-color: rgb(230, 185, 103);
+  background-color: rgba(2, 2, 2, 0.7); 
+  border: none;
 }
 
 .col p {
@@ -101,32 +127,69 @@ p {
   color: #fff;
   font-style: oblique;
   font-size: 14px;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 251, 0), 0 0 5px rgb(113, 139, 0);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 251, 0),
+    0 0 5px rgb(113, 139, 0);
 }
 
 /* Laptop */
-@media only screen and  (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   html {
-    font-size: 75%;
+    font-size: 95%;
   }
 }
+
 /* Tablet */
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 62.5%;
+    font-size: 90.5%;
   }
 }
+
 /* Hp */
 @media only screen and (max-width: 600px) {
   html {
     font-size: 55%;
   }
+
+  .container {
+    width: 85%;
+  }
+  
+  .border-right {
+    border: none;
+  }
+  
+  .border-right-1 {
+    border: none;
+  }
+
+  .col a {
+    font-size: unset;
+  }
+  
   .row {
+    padding: 15px;
     display: block;
   }
-.border-right {
-    display: block;
+  
+  .sub-judul {
+    font-size: 13px;
+  }
+  
+  .sub-judul-1{
+    font-size: 13px;
+  }
+  
+  .row-1 {
+    display: flex;
+  }
+  
+  .col .ul {
+    flex-wrap: wrap;
+    display: inline-block;
+  } 
+  
+  .ul {
+    display: inline-block;
   }
 }
-
-

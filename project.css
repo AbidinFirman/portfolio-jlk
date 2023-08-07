@@ -11,8 +11,7 @@
     /* margin-right: 10px;    */
     border: 1px solid #ccc;                                                                         
     width: 400px;   
-    display: inline-block;
-    /* float: left;                 */
+    float: left;                 
     position: relative; 
     /* width: 50px; */      
     /* margin-top: 5px;     */
